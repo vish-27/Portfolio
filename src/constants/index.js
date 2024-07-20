@@ -11,6 +11,8 @@ import {
     redux,
     tailwind,
     nodejs,
+    quiz,
+    wise,
     mongodb,
     git,
     figma,
@@ -18,8 +20,12 @@ import {
     meta,
     starbucks,
     tesla,
+    bill,
+    larry,
+    steve,
     tsp,
     afflux,
+    stock,
     shopify,
     carrent,
     jobit,
@@ -148,27 +154,21 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Success is a lousy teacher. It seduces smart people into thinking they can't lose.                 ",
+      name: "Bill Gates",
+      image: bill,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Because the people who are crazy enough to think they can change the world are the ones who do.",
+      name: "Steve Jobs",
+      image: steve,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "If you're changing the world, you're working on important things. You're excited to get up in the morning. ",
+      name: "Larry Page",
+      image: larry,
     },
   ];
   
@@ -191,7 +191,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: wise,
       source_code_link: "https://github.com/",
     },
     {
@@ -211,7 +211,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: quiz,
       source_code_link: "https://github.com/",
     },
     {
@@ -231,7 +231,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: stock,
       source_code_link: "https://github.com/",
     },
   ];

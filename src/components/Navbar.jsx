@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../style";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import resume from "./resume.pdf"
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -95,6 +96,11 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      <div class="ms-8" >
+
+        <a class="rounded-full px-8 outline outline-2 outline-offset-2 hover:bg-slate-400" href={resume} download="resume">Resume</a>
+    
+            </div>
     </nav>
   );
 };
